@@ -116,7 +116,8 @@
 
     .images {
       display: flex;
-      flex-wrap: wrap
+      flex-wrap: wrap;
+      justify-content: space-evenly
     }
 
     .word-imgrun {
@@ -132,28 +133,30 @@
       font-size: 20px;
       color: #8ab9d8;
       position: relative;
-      width: 65px;
+      width: 250px;
       bottom: 29px;
       background-color: #024e76 ;
     }
 
     .runimg {
-      margin: 10px 0 20px 0;
+
+      justify-content: center;
     }
 
+    /*
     .work-img1 {
-      float: right;
     }
 
     .work-img2 {
     }
 
     .work-img3 {
-      float: right;
+
     }
 
     .work-img4 {
     }
+    */
     
     /* WORK STYLES END */
 
